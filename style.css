@@ -104,6 +104,29 @@ main h3::after{
     content: url(images/cat1.png);
 }
 
+table{
+    margin-top: 35px;
+}
+
+table, caption, td, th{
+    border: 1px solid #000;
+}
+
+th, td{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+caption{
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #AAD29E;
+}
+
+
 /*footer*/
 footer{
     width: 100%;
