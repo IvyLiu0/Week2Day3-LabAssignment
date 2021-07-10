@@ -126,6 +126,48 @@ caption{
     color: #AAD29E;
 }
 
+.table-1{
+    margin: 0 0 0 10em;
+}
+
+
+
+/*Contact Styling*/
+label{
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+input, textarea{
+    width: 300px;
+    display: block;
+}
+
+input[type="radio"]{ /*attribute selector*/
+    width: 25px;
+    display: inline;
+}
+
+
+input[type="submit"], input[type="reset"]{
+    display: inline;
+    margin: 20px 0px 10px 5px;
+    width: 100px;
+    background-color: #AAD29E;
+}
+
+.formstyle{
+    margin: 0 20px;
+}
+
+.contact-h2{
+    color: #AAD29E;
+    font-family: monospace;
+    padding: 0 20px;
+}
+
+
+
 
 /*footer*/
 footer{

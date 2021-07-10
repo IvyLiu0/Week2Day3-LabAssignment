@@ -27,40 +27,39 @@
         <main>
     <form action="/signup" method="POST">
         <fieldset>
-            <legend><h2>Adoption Contact</h2></legend><br>
-            <label>First Name</label><br>
-            <input type="text" name="name"><br>
-            <label>Middle Name</label><br>
-            <input type="text" name="name"><br>
-            <label>Last Name</label><br>
-            <input type="text" name="name"><br>
-            <br>
-            <label>Gender</label><br>
-            <input type="radio" name="gender" value="male">Male
-            <input type="radio" name="gender" value="female">Female
-            <br><br>
+            <legend><h2 class="contact-h2">Adoption Contact</h2></legend>
+            <div class="formstyle">
+            <label>First Name</label>
+                <input type="text" name="name">
+            <label>Middle Name</label>
+                <input type="text" name="name">
+            <label>Last Name</label>
+                <input type="text" name="name">
+            <label>Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
             <label>Email:</label>
-            <input type="email" name="email"><br>
+                <input type="email" name="email">
             <label>Phone:</label>
-            <input type="tel" name="phone"><br>
-            <br><br>
-            <label>Which one you perfer us to contact you first?</label><br>
+                <input type="tel" name="phone">
+            <label>Which one you perfer us to contact you first?</label>
             <select>
                 <option>Email</option>
                 <option>Phone</option>
             </select>
-            <br><br>
-            <label>Tell us what we could help you today?</label><br>
-            <textarea rows="10" cols="30">Type here......</textarea><br><br>
-            <label>We will contact you as soon as possible after you submit.</label><br><br>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
+            <label>Tell us what we could help you today?</label>
+                <textarea rows="10" cols="30">Type here......</textarea>
+            <label>We will contact you as soon as possible after you submit.</label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>    
         </fieldset>
     </form>
         <br><br><br><br>
     <form action="application" method="POST">
         <fieldset>
-            <legend><h2>Future Adoption Application</h2></legend>
+            <legend><h2 class="contact-h2">Future Adoption Application</h2></legend>
+            <div class="formstyle">
             <p>Thank you for your interest in the adoption of an animal from WeCat. We would appreciate you
                 answering the following questions so that we best determine compatibility between you and the animal question.</p>
             <h4>Adoption Fees: Cat/Kittens: $100-$200</h4>
@@ -68,14 +67,15 @@
             <br>
             <h4>Animal Information</h4>
             <label>Name of the Cat:</label>
-            <input type="text" name="name"><br><br>
+            <input type="text" name="name">
             <label>License number of the Cat:</label>
-            <input type="text" name="number"><br><br>
+            <input type="text" name="number">
             <label>Gender of the Cat:</label>
             <input type="radio" name="gender" value="male">Male
-            <input type="radio" name="gender" value="female">Female<br><br>
+            <input type="radio" name="gender" value="female">Female<br>
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
+        </div>
         </fieldset>
     </form>
     </main>
