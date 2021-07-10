@@ -66,25 +66,63 @@ nav img{
 
 /*Body Styling*/
 main{
-    margin: 150px 0;
+    margin: 150px 100px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
+main.home p{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
+h1{
+    color:#AAD29E ;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.home-h2{
+    padding: 0 200px;
+}
+
+.home-h3{
+    padding: 50px 0 0 0;
+}
+
+main h3::before{
+    content: url(images/cat1.png);
+}
+
+main h3::after{
+    content: url(images/cat1.png);
+}
 
 /*footer*/
 footer{
     width: 100%;
-    height: 200px;
+    height: 15rem;
     padding-bottom: 20px;
     background-color: #AAD29E;
 }
 
 footer #nondisclaimer .social {
-    padding: 3.5em 3.5em 3.5em 13em;
+    padding: 3.5em 3.5em 3.5em 3.5em;
     font-size: 0.9em;
-    float: right;
+    margin: auto;
+    text-align: center;
 }
+
+/*footer #nondisclaimer .social:first-child{
+    padding-left: 0;
+}*/
+
 
 footer #disclaimer {
     clear:both;
