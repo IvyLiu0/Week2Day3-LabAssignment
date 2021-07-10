@@ -3,27 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="Viewpoint" content="width=device-width initial-​scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>WeCat</title>
-        <br><br>
-        <div class="main-header"> <!--Start with main header-->
-            <div class="logo"><!--Start with logo-->
-                <img src="images/cat.png" alt="wecat logo" width="100">
-            </div>
-            <br>
-            <nav class="main-menu"><!--Start with main menu-->
+        <div id="container">
+            <!--Brand of website-->
+            <header id="header-2"></header>
+            <!--Main Navigation-->
+            <nav>
                 <ul>
-                    <li><a href="home.html"><h3>Home</h3></a></li>
-                    <li><a href="adoption.html"><h3>Adoption</h3></a></li>
-                    <li><a href="contact.html"><h3>Contact</h3></a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><img src="images/cat.png" alt="logo"></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav><!--End with main menu-->
-        </div>
+            </nav>
+            <!--End Main Navigation-->
     </head>
 
     <body>
-        <img src="images/adoption2.jpeg" alt="adoption1" width="100%">
-        <br>
+        <main>
         <h1>Some information that you may know before you adopt a kitten</h1>
        <h3>Before You Bring Your Cat Home:</h3>
        <ul>
@@ -117,16 +118,20 @@
              </tr>
             </tbody>
         </table>
+    </main>
     </body>
-<br><br>
-    <footer><!--Start with footer-->
-        <div>
-            <h4>Email: info@wecat.com</h4> 
-            <h4>Phone: 626WECAT</h4>
+
+    <footer>
+        <div id="nondisclaimer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
             </div>
-            <div>
-            <h4>Facebook</h4>
-            <h4>Instagram</h4>
-            <h4>&copy;copyright:2021</h4>
+        </div>
+        <div id="disclaimer">
+            <p>&copy;Copyright 2020 WeCat.com</p>
+            <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
         </div>
     </footer>
+</html>    
